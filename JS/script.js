@@ -28,10 +28,10 @@ let ticketCost = howManyKm
 
     output.innerHTML = `Il costo del biglietto è di: ${ticketCost}&euro;`;
 
-if (parseInt (inputAgeElement.value) < 18)  {
+if (parseInt (km.value) < 18)  {
     ticketCost = (howManyKm - discountMinors);
 
-} else if (parseInt (inputAgeElement) > 65)  {
+} else if (parseInt (age.value) > 65)  {
     ticketCost = (howManyKm - discountMayors);
 }
 
