@@ -1,0 +1,46 @@
+body {
+    background-color: #0b5ed7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    width: 100%;
+    background-color: goldenrod;
+    opacity: 90%;
+}
+
+
+.h1-box {
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+#please {
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+
+.navbar-nav > li > a:hover {
+    color: white !important;
+    opacity: 100%;
+}
+
+.navbar form a:hover {
+    color: white !important;
+    opacity: 100%;
+}
+
+
+#output {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}

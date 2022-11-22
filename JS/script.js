@@ -5,7 +5,6 @@ const inputAgeElement = document.querySelector ('input#age');
 const button = document.querySelector ('div.buttons a.btn');
 const output = document.getElementById ('output');
 
-let ticketCost;
 
  button.addEventListener ('click', function (){
 
@@ -20,6 +19,7 @@ let ticketCost;
     let discountMayors = ((howManyKm / 100) * 33.3);
     
     let ticketCost = howManyKm;
+    
     console.log (`Il Prezzo del biglietto senza sconto è di: ${ticketCost.toFixed(2)}€`);
 
 
@@ -31,7 +31,6 @@ if (parseInt (inputAgeElement.value) < 18)  {
     ticketCost = (howManyKm - discountMayors);
     console.log (`Il Prezzo del biglietto scontato per gli Anziani è di: ${ticketCost.toFixed(2)}€`)
 } 
-
 
 
 output.innerHTML = `Il costo del biglietto è di: ${ticketCost.toFixed(2)}&euro;`;
